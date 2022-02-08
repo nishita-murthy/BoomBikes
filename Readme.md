@@ -16,4 +16,19 @@ How well those variables describe the bike demands
 
 You are required to model the demand for shared bikes with the available independent variables. It will be used by the management to understand how exactly the demands vary with different features. They can accordingly manipulate the business strategy to meet the demand levels and meet the customer's expectations. Further, the model will be a good way for management to understand the demand dynamics of a new market. 
 
+## **Conclusion**
+We have a R-squared value of 86.66 % on train data and 83.4% on test data. Based on the above table, we can understand that temperature is the highest significant variables and decreases as you move down the table.
+
+Equation of best fit line can be calculated by using the standard formla:
+
+cnt = const + feature1 x co-efficient1 + feature2 x co-efficient + .......... + feature'n' x co-efficient'n'
+
+All of the positive coefficients, such as temp,season Summer, suggest that when these values rise, so will the value of cnt.
+All of the negative coefficients indicate that increasing these values will cause the value of cnt to decrease.
+
+- With the biggest coefficient, temperature is the most significant.
+- Followed by weathersit Light Snow.
+- Bike rentals are more significant in September.
+- During the holidays, rental rates are lower.
+
 
