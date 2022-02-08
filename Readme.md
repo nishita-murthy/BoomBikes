@@ -17,7 +17,7 @@ How well those variables describe the bike demands
 You are required to model the demand for shared bikes with the available independent variables. It will be used by the management to understand how exactly the demands vary with different features. They can accordingly manipulate the business strategy to meet the demand levels and meet the customer's expectations. Further, the model will be a good way for management to understand the demand dynamics of a new market. 
 
 ## **Conclusion**
-We have a R-squared value of 86.66 % on train data and 83.4% on test data. Based on the above table, we can understand that temperature is the highest significant variables and decreases as you move down the table.
+We have a R-squared value of 83.6% on train data and 80.4% on test data. Based on the above table, we can understand that temperature is the highest significant variables and decreases as you move down the table.
 
 Equation of best fit line can be calculated by using the standard formla:
 
